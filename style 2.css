@@ -1,0 +1,169 @@
+body {
+
+font-family: :Arvo;
+font-size: 18px;
+color:  rgb(30,30,30);
+background-color: #fdefe0;
+margin: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1, h2, h3 {
+	font-family: Oxanium;
+	text-align: center;
+}
+
+.banner {
+	text-align: center;
+	background-image: url(images/skyfall.jpg);
+	background-position: center;
+	background-size:  cover;
+	padding: 100px 0px;
+	color:  black;
+}
+
+.banner h1	 {
+font-size:  45px;
+}
+
+.banner p {
+	font-size: 27px;
+}
+
+.btn-yellow {
+	color: white;
+	background-color: #f9b447;
+	padding: 15px 45px;
+	margin-top: 30px;
+	border-radius: 4px;
+}
+
+.btn-yellow:hover {
+opacity: 0.8;
+}
+
+.card-white img {
+width: 200px;
+height:  200px;
+object-fit: cover;
+border-radius: 4px;
+}
+
+.card-white {
+	background-color: white;
+	width: 220px;
+	padding: 24px;
+	text-align: center;
+	margin-bottom: 8px;
+	border-radius: 4px;
+	box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+	width: 900px;
+	margin: auto;
+	margin-bottom: 24px;
+}
+
+.footer {
+	text-align: center;
+	background-color: #6796a6;
+	padding: 16px;
+	font-family: Oxanium;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+
+.card-white img:hover {
+opacity: 0.8;
+}
+
+.card-white {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+ text-align: center;
+  height: 200px;
+  width: 200px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #f9b447;
+  background-size: cover;
+  border-radius: 4px;
+  margin: 24px 34px;
+  object-fit: cover;
+}
+
+.card-white:hover .overlay {
+  opacity: .8;
+}
+
+.text {
+ color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  opacity: 1;
+}
+
+.banner p {font-style: italic;
+}
+
+#form * {
+  box-sizing: border-box;
+  font-family: Oxanium;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #f9b447;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #f9b447;
+  opacity: 0.8;
+
+}
+
+.footer p {
+transform: rotate(360deg);
+transition: transform 2s;
+}
+
+.footer p:hover {
+ transform: rotate(0deg);
+}
